@@ -1,0 +1,109 @@
+body {
+    background-color: #c14040;
+}
+
+h1,
+h3,
+p,
+h2 {
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: #ab3838;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    margin: 10px;
+    width: 500px;
+    overflow: hidden;
+}
+
+.card img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.card-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.card-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-info p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.return-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.return-btn {
+    background-color: #ab3838;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.image {
+    margin-right: 16px;
+    max-width: 400px;
+}
+
+progress::-moz-progress-bar {
+    background: #632b2b;
+}
+
+/* For Chrome or Safari */
+progress::-webkit-progress-value {
+    background: #632b2b;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+/* For IE10 */
+progress {
+    background: #632b2b;
+}
+
+.header {
+    background-color:white ;
+    border-radius: 12px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header h1 {
+    color: #ab3838;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
